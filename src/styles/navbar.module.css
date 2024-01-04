@@ -1,0 +1,46 @@
+.nav_container {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(3, 56, 56);
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    margin-top: -70px;
+}
+
+h2 {
+    color: rgb(247, 9, 9);
+    margin: 0px;
+    margin: 10px;
+}
+
+.nav_container h3 {
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.icon {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    height: 40px;
+    width: 50px;
+}
+
+.count {
+    background-color: red;
+    padding: 0px 6px;
+    font-size: small;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 22px;
+    top: -13px;
+}
+
+Link a {
+    text-decoration: none;
+}

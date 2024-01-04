@@ -1,0 +1,178 @@
+.products_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .filter {
+    margin: auto;
+    margin-top: 70px;
+    width: 60%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+
+  .filter img {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+  }
+
+  .filter h3 {
+    margin: 0px;
+  }
+
+  .range {
+    width: auto;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .item {
+    max-height: 100px;
+    max-width: 100px;
+    margin-right: 10px;
+  }
+
+  .flex {
+    display: flex;
+    height: 100px;
+    width: 60%;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 10px;
+    z-index: 1;
+    
+  }
+
+  .flexColumn {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+    width: 15%;
+    overflow-wrap: break-word;
+  }
+
+  .flexColumn input,
+  h4,
+  h5 {
+    margin: 0px;
+  }
+
+  .flexColumn input,
+  textarea {
+    border: none;
+    background-color: white;
+    color: black;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fa_pen {
+    color: green;
+    cursor: pointer;
+  }
+
+  .fa_trash_can {
+    color: red;
+    cursor: pointer;
+  }
+
+  .actions button {
+    background-color: rgb(91, 157, 233);
+    outline: none;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #green {
+    background-color: rgb(255, 168, 7);
+  }
+
+  @media screen and (max-width:1020px) {
+
+    .flex,
+    .filter {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+
+    .flex,
+    .filter {
+      width: 80%;
+    }
+
+    .flexColumn {
+      left: 27%;
+    }
+
+  }
+
+  @media screen and (max-width:660px) {
+
+    .flex,
+    .filter {
+      width: 90%;
+    }
+
+    .flexColumn {
+      left: 20%;
+    }
+
+    .item {
+      height: 80px;
+      width: 80px;
+    }
+  }
+
+  @media screen and (max-width:576px) {
+
+    .flex,
+    .filter {
+      width: 95%;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+
+    .item {
+      height: 100px;
+      width: 100px;
+    }
+
+    .flex {
+      height: auto;
+      min-height: 230px;
+      flex-direction: column;
+      width: 80%;
+    }
+
+    .filter {
+      width: 80%;
+    }
+
+    .flexColumn {
+      left: 40%;
+      width: auto;
+    }
+
+    .about {
+      width: 300px;
+      overflow-wrap: break-word;
+    }
+
+  }

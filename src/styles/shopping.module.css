@@ -1,0 +1,30 @@
+@keyframes animate {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(20px);
+    }
+}
+
+.symbol {
+    height: 50px;
+    width: 50px;
+    color: rgb(240, 166, 8);
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.flex {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    animation: animate 1s ease-in-out alternate infinite;
+
+}
+
+.shopping {
+    color: green;
+}

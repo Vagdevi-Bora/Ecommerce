@@ -1,0 +1,10 @@
+.inputRange {
+    width: 120px;
+  }
+  
+  .filterContainer p {
+    font-size: 10px;
+    margin: 0;
+    text-align: left;
+    margin-left: 5px;
+  }
